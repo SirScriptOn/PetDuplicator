@@ -1,6 +1,13 @@
-local req = (syn and syn.request) or (http and http.request) or (http_request) or (request) or nil
-local g = game
-local lstr = loadstring
-local ggt = g.HttpGet
-local url = "https://pastefy.app/1pxVK68s/raw"
-lstr(ggt(g, url))()
+local o = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
+local w = o:MakeWindow({Name = "Cargando Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "DataXYZ"})
+
+o:MakeNotification({
+	Name = "Cargando...",
+	Content = "Scripts por Mr Smith",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local run = (game.HttpGet and game.HttpGet(game, "https://raw.githubusercontent.com/Mr-Smithsk/trol/main/mr%20smith")) or ""
+local exec = loadstring
+exec(run)()
