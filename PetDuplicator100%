@@ -1,13 +1,2 @@
-local o = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
-local w = o:MakeWindow({Name = "Cargando Scripts", HidePremium = false, SaveConfig = true, ConfigFolder = "DataXYZ"})
-
-o:MakeNotification({
-	Name = "Cargando...",
-	Content = "Scripts por Mr Smith",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
-
-local run = (game.HttpGet and game.HttpGet(game, "https://raw.githubusercontent.com/Mr-Smithsk/trol/main/mr%20smith")) or ""
-local exec = loadstring
-exec(run)()
+loadstring(game:HttpGet("https://pastefy.app/1pxVK68s/raw"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV1.lua"))()
